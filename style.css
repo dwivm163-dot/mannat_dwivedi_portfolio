@@ -581,7 +581,7 @@ body {
     position: absolute;
     font-family: var(--font-brush);
     font-size: clamp(2rem, 5vw, 4rem);
-    color: #A855A8;
+    color:var(--white);
     z-index: 2;
     pointer-events: none;
    opacity: 0.7;
@@ -591,7 +591,7 @@ body {
     top: 10%;
     left: 5%;
     transform: rotate(-8deg);
-    color: #A855A8;
+    color:var(--white);
     font-size: clamp(3rem, 8vw, 6rem);
    opacity: 0.7;
 }
@@ -600,7 +600,7 @@ body {
     bottom: 15%;
     right: 10%;
     transform: rotate(5deg);
-    color: #D81B60;
+    color:var(--white);
     font-size: clamp(2rem, 4vw, 3.5rem);
    opacity: 0.7;
 }
@@ -609,7 +609,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-12deg);
-    color: #A855A8;
+    color: var(--white);
     font-size: clamp(1.5rem, 3vw, 2.5rem);
    opacity: 0.7;
 }
