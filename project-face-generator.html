@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Generator — Mannat Dwivedi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Permanent+Marker&family=Covered+By+Your+Grace&family=Bungee+Inline&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+
+</head>
+<body class="project-page">
+    <div class="grain"></div>
+
+    <nav class="nav">
+        <a href="index.html" class="nav-left">
+            <span class="nav-name">MANNAT DWIVEDI</span>
+        </a>
+        <div class="nav-center">
+            <span class="nav-tagline">Creative Portfolio</span>
+        </div>
+        <div class="nav-right">
+            <a href="index.html#work" class="nav-link">Work</a>
+            <a href="index.html#about" class="nav-link">About</a>
+            <a href="index.html#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <div class="project-container">
+        <a href="generative-art.html" class="back-link">
+            <span class="back-arrow">←</span>
+            <span class="back-text">Back to Generative Art</span>
+        </a>
+
+        <header class="project-header">
+            <div class="project-meta">
+                <span class="project-category">GENERATIVE ART</span>
+                <span class="project-number">002</span>
+            </div>
+            <h1 class="project-title-main">Face Generator</h1>
+            <p class="project-subtitle">A generative portrait system that assembles character features from variable-driven randomness.</p>
+        </header>
+
+        <div class="sketch-container">
+            <div class="sketch-media-grid">
+                <div id="sketch-container" class="sketch-wrapper"></div>
+                <div class="sketch-image-wrapper">
+                    <img src="IMG_1798.PNG" alt="Face Generator reference" class="sketch-reference-image">
+                </div>
+            </div>
+        </div>
+
+        <section class="reflection-section">
+            <div class="reflection-header">
+                <h2 class="reflection-title">
+                    <span class="title-brush">reflection</span>
+                </h2>
+            </div>
+            <div class="reflection-content">
+                <div class="reflection-text">
+                    <p>For this project I started by sketching the face at its biggest and smallest scale, and then turned those differences into ranges in code. The hardest part was getting the hair to look right and all the shapes to line up correctly since the hair in my orignal sketch was a bit more complicated. I had to try a few different shapes before settling on a simple bob made from one arc and one rectangle, with a single arc across the forehead for bangs. Another challenge was keeping things in place when I rotated parts like the horns and eyebrows, but using push() and pop() fixed that. I learned that even small changes in parameters like eye spacing, eyebrow tilt, or mouth size can make the character feel totally different. Playing with the ranges also showed me that too much randomness makes the face look chaotic, but tighter ranges make every variation feel more intentional. </p>
+                </div>
+            </div>
+        </section>
+
+        <nav class="project-nav">
+            <a href="project-lost-found.html" class="nav-prev">
+                <span>← Previous</span>
+            </a>
+            <a href="project-experimental-clock.html" class="nav-next">
+                <span>Next →</span>
+            </a>
+        </nav>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <span class="footer-left">© 2025</span>
+            <span class="footer-center">MANNAT DWIVEDI</span>
+            <span class="footer-right">Portfolio</span>
+        </div>
+    </footer>
+
+    <script src="facegenerator.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
