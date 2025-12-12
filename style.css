@@ -584,6 +584,7 @@ body {
     color: #A855A8;
     z-index: 2;
     pointer-events: none;
+   opacity: 0.7;
 }
 
 .graffiti-1 {
@@ -592,6 +593,7 @@ body {
     transform: rotate(-8deg);
     color: #A855A8;
     font-size: clamp(3rem, 8vw, 6rem);
+   opacity: 0.7;
 }
 
 .graffiti-2 {
@@ -600,6 +602,7 @@ body {
     transform: rotate(5deg);
     color: #D81B60;
     font-size: clamp(2rem, 4vw, 3.5rem);
+   opacity: 0.7;
 }
 
 .graffiti-3 {
@@ -608,14 +611,17 @@ body {
     transform: translate(-50%, -50%) rotate(-12deg);
     color: #A855A8;
     font-size: clamp(1.5rem, 3vw, 2.5rem);
+   opacity: 0.7;
 }
 
 .graffiti-4 {
     bottom: 20%;
     left: 10%;
     transform: rotate(8deg);
-    color: var(--wine);
+    color:var(--white);
     font-size: clamp(2.5rem, 6vw, 5rem);
+   opacity: 0.7;
+
 }
 
 .graffiti-5 {
@@ -624,14 +630,16 @@ body {
     transform: rotate(-5deg);
     color: var(--white);
     font-size: clamp(2rem, 5vw, 4rem);
+   opacity: 0.7;
 }
 
 .graffiti-6 {
     top: 30%;
     right: 20%;
     transform: rotate(10deg);
-    color: var(--lavender-pink);
+    color: var(--white);
     font-size: clamp(1.2rem, 2.5vw, 2rem);
+    opacity: 0.7;
 }
 
 /* Red X Marks */
@@ -639,7 +647,7 @@ body {
     position: absolute;
     font-family: var(--font-brush);
     font-size: clamp(3rem, 8vw, 6rem);
-    color: var(--wine);
+    color: var(--white);
     z-index: 3;
     pointer-events: none;
     opacity: 0.8;
