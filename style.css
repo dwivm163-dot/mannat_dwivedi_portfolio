@@ -2376,6 +2376,105 @@ body {
     }
 }
 
+/* ================================================
+   TYPOGRAPHY PROTOTYPE STYLES
+   ================================================ */
+.typography-prototype {
+    margin: var(--space-xl) 0;
+    padding: var(--space-lg) 0;
+    border-top: 2px solid var(--lavender-pink);
+}
+
+.typography-prototype:first-of-type {
+    margin-top: var(--space-lg);
+}
+
+.prototype-header {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-md);
+}
+
+.prototype-number {
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--white);
+    background: var(--wine);
+    padding: 0.3rem 0.6rem;
+    border-radius: 50px;
+}
+
+.prototype-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: var(--black);
+    line-height: 1;
+}
+
+.prototype-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    align-items: start;
+}
+
+.prototype-video,
+.prototype-sketch {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.prototype-video video {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border: 2px solid var(--black);
+    background: var(--bg-warm);
+}
+
+.prototype-sketch iframe {
+    width: 600px;
+    height: 600px;
+    border: 2px solid var(--black);
+    background: var(--bg-warm);
+}
+
+.media-label {
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: var(--gray);
+    text-transform: uppercase;
+}
+
+@media (max-width: 1300px) {
+    .prototype-content {
+        grid-template-columns: 1fr;
+        gap: var(--space-lg);
+        justify-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .typography-prototype {
+        margin: var(--space-lg) 0;
+        padding: var(--space-md) 0;
+    }
+    
+    .prototype-video video,
+    .prototype-sketch iframe {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        aspect-ratio: 1/1;
+    }
+}
+
 @media (max-width: 480px) {
     .nav-right {
         gap: var(--space-sm);
