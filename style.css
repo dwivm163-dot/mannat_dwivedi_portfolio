@@ -1995,6 +1995,23 @@ body {
     max-width: 700px;
 }
 
+.project-description {
+    max-width: 800px;
+    margin-top: var(--space-sm);
+}
+
+.project-description p {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    line-height: 1.75;
+    color: var(--gray-dark);
+    margin-bottom: var(--space-sm);
+}
+
+.project-description p:last-child {
+    margin-bottom: 0;
+}
+
 /* Sketch Container */
 .sketch-container {
     margin: var(--space-lg) 0;
@@ -2081,6 +2098,17 @@ body {
 
 .reflection-header {
     margin-bottom: var(--space-md);
+}
+
+.reflection-subtitle {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--wine);
+    margin-top: var(--space-sm);
+    margin-bottom: 0;
 }
 
 .reflection-title {
