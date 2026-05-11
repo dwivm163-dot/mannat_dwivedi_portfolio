@@ -2480,6 +2480,24 @@ body {
     text-transform: uppercase;
 }
 
+.prototype-caption {
+    margin-top: var(--space-lg);
+    max-width: 52rem;
+}
+
+.prototype-caption p {
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    line-height: 1.75;
+    color: var(--gray-dark);
+    margin: 0;
+}
+
+.prototype-caption strong {
+    font-weight: 600;
+    color: var(--black);
+}
+
 @media (max-width: 1300px) {
     .prototype-content {
         grid-template-columns: 1fr;
