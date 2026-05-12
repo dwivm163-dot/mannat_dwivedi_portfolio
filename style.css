@@ -2546,16 +2546,6 @@ a.list-item {
 /* ================================================
    COMMUNITY QUIZ PROJECT PAGE
    ================================================ */
-.community-quiz-evolution-still {
-    width: 600px;
-    height: 600px;
-    object-fit: contain;
-    object-position: top center;
-    border: 2px solid var(--black);
-    background: var(--bg-warm);
-    display: block;
-}
-
 .community-quiz-live-note {
     font-family: var(--font-serif);
     font-size: 1rem;
@@ -2603,13 +2593,4 @@ a.list-item {
 
 .project-description a:hover {
     color: var(--black);
-}
-
-@media (max-width: 768px) {
-    .community-quiz-evolution-still {
-        width: 100%;
-        max-width: 600px;
-        height: auto;
-        aspect-ratio: 1 / 1;
-    }
 }
