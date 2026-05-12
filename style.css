@@ -2145,6 +2145,17 @@ body {
     margin-bottom: 0;
 }
 
+.reflection-next-heading {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--wine);
+    margin-top: var(--space-lg);
+    margin-bottom: var(--space-sm);
+}
+
 /* Project Navigation */
 .project-nav {
     display: flex;
@@ -2578,10 +2589,6 @@ a.list-item {
 
 .community-quiz-iframe {
     min-height: min(85vh, 900px);
-}
-
-.community-quiz-reflection-blank {
-    min-height: 6rem;
 }
 
 .project-description a {
